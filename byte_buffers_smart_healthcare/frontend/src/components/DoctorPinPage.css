@@ -1,0 +1,68 @@
+.pin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e0f7fa, #f1f8ff);
+    color: #003366;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  
+  .pin-container h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #0077b6;
+  }
+  
+  .pin-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 300px;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 51, 102, 0.1);
+  }
+  
+  .pin-container input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #cfe0e8;
+    background-color: #f9fcfd;
+    color: #003366;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .pin-container input:focus {
+    border-color: #0077b6;
+  }
+  
+  .pin-container input::placeholder {
+    color: #7b8a99;
+  }
+  
+  .pin-container button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0077b6;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pin-container button:hover {
+    background-color: #005f8c;
+  }
+  
+  .pin-container p {
+    color: #d32f2f;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  

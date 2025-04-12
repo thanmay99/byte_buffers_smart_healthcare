@@ -1,0 +1,9 @@
+.app-container {
+  background: linear-gradient(135deg, #e0f7fa, #f1f8f9); /* Soft blue-green blend */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
